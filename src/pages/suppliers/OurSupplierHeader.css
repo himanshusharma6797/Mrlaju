@@ -1,0 +1,17 @@
+.proposeButton {
+    height: 26px;
+    width: 80px;
+    background-color: #35498E !important;
+    color: white !important;
+}
+
+.buttonText {
+    font-size: 12px;
+    text-transform: none;
+    cursor: pointer;
+
+}
+
+.headingOfPageContentSupplier {
+    padding-left: 58px;
+}

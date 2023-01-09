@@ -1,0 +1,21 @@
+.condoSingle {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #4B4B4B;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.condoList {
+    height: 2.5rem;
+    margin-top: 1rem;
+}

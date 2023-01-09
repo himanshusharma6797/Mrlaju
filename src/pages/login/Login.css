@@ -1,0 +1,181 @@
+.formContainer {
+    /* position: absolute; */
+    bottom: 0;
+    border-radius: 45px 45px 0px 0px !important;
+    padding: 1.25rem;
+    /* height: 30.625rem; */
+    /* height: 63vh; */
+    /* max-width: 23.8125em; */
+    width: 100%;
+    margin: 'auto'
+}
+
+@media (max-width: 768px) {
+}
+
+.svgLogo {
+    /* position: absolute; */
+    padding-top: 5.28125rem;
+}
+
+.mainHeading {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    padding-top: .5rem;
+
+    color: #FFFFFF;
+
+}
+
+.loginHeading {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    padding-top: 2.8rem;
+    padding-bottom: 3.2rem;
+    color: #FFFFFF;
+}
+
+.loginLable {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #202020;
+
+}
+
+.loginInputs {
+    width: 100%;
+    height: 32px;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1 !important;
+    border-radius: 15px;
+    /* margin-bottom: 4%; */
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.phoneNumberInput{
+    height: 100%;
+    border: 0;
+    flex: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.phoneNumberAndOTPButtonContainer{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+.submitButton {
+    height: 32px;
+    width: 100%;
+    background: #35498E !important;
+    border: 1px solid #35498E;
+    border-radius: 15px !important;
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    margin-top: 20%;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
+
+
+.bottomLinks {
+    /* margin-top: 4%; */
+    margin-top: .7rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.lableInputBox {
+    /* padding-top: 14%; */
+    padding-top: 3rem;
+    height: 24rem;
+}
+
+.headingLoginPages{
+    height: 50vh !important;
+}
+
+.getOTPButtonRegister{
+    border: 0px;
+    background-color: #35498E;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.bottomLinks {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #35498E;
+}
+.selectCountryCode{
+    background-color: white;
+    border: 0px;
+}
+
+.selectCountryCodeOptions{
+    background-color: #FFFFFF;
+    color: #35498E;
+}
+
+.loginInputPhone{
+    padding-left: 3.5rem;
+}
+.arrowForwardIosIcon{
+    /* position: relative; */
+    /* border: 1px solid #FFFFFF; */
+    padding: .25rem;
+    padding-top: .35rem;
+}
+.getOTPButton{
+    border: 0px;
+    background-color: #35498E;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 1.75rem;
+    position: relative;
+    top: 10%;
+    left: 46%;
+}
+.slectedInputs{
+    position: static !important;
+    box-sizing: border-box;
+    height: 32px;
+    width: 100% !important;
+    padding-left: .7rem;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}

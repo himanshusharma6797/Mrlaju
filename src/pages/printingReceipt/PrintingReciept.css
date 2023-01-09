@@ -1,0 +1,22 @@
+.plusBtn{
+    width: 30px;
+    height: 28px;
+    background: #35498E !important;
+    border: 1px solid #35498E !important;
+    border-radius: 7px 0px 0px 7px !important;
+    color: white !important;
+    font-size: 24px !important;
+}
+
+.minusBtn{
+    height: 28px;
+    background: #35498E !important;
+    border: 1px solid #35498E !important;
+    border-radius: 0px 7px 7px 0px !important;
+    color: white !important;
+    font-size: 24px !important;
+    width: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

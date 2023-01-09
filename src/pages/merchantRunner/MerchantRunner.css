@@ -1,0 +1,9 @@
+.twoButtonGroupFull {
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-radius: 15px;
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 1rem;
+}

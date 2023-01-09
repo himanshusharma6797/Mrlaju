@@ -1,0 +1,19 @@
+import { Navigate, useRoutes } from "react-router-dom";
+import { Login } from "./pages/login/login";
+
+// ----------------------------------------------------------------------
+
+export default function Router() {
+  return useRoutes([
+    {
+      path: "/app/",
+      element: <HomeLayout />,
+      children: [
+        { path: "login", element: <Login /> },
+        { path: "signup", element: <SignUp /> },
+        { path: "signup/:uuid/:token", element: <SignUp /> },
+      ],
+    },
+    { path: "*", element: <Navigate to="/app/login" replace /> },
+  ]);
+}

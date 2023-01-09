@@ -1,0 +1,77 @@
+.closeNavbarIcon {
+    background-color: #35498E !important;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px !important;
+}
+
+.closeNavbarIconCross {
+    width: 16px !important;
+    /* height: 8px !important; */
+    color: white;
+}
+
+.svgLogoNavbar {
+    width: 48px;
+    height: 48px;
+}
+
+.logoCloseIconContainer {
+    justify-content: space-between !important;
+}
+.divContainerLogoAndMenu{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 40%;
+}
+
+.navItemButton {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    color: #202020 !important;
+    display: flex;
+    width: 85.5%;
+    border: 0px;
+    background-color: white;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+.navItemButton:hover {
+    background: #EAECFF;
+}
+
+
+.navItemIcon {
+    padding-right: 1rem;
+}
+
+.navHeading{
+    padding-left: 1rem;
+    height: 27px;
+    left: 72px;
+    top: 45px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.navbarList{
+    padding-left: .5rem !important;   
+}
+
+.navItemButton:active{
+    background: #EAECFF;
+    border-radius: 8px;
+}

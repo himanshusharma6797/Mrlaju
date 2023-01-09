@@ -1,0 +1,33 @@
+.headingDeliveryResident {
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 22px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.headingDeliveryNonResident {
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 22px;
+    color: #000000;
+}
+
+.searchOperatorContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 92%;
+    align-items: center;
+}
+
+.searchOperatorImage {
+    width: 336px;
+    height: 287px;
+}
