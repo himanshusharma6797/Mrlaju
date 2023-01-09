@@ -1,0 +1,71 @@
+.deliveryHeading {
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #202020 !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins' !important;
+}
+
+.containerInfoIconCondo {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #919191;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+
+.managePartnersHeading {
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #202020 !important;
+}
+
+.managePartnersSubHeading {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #414141 !important;
+    margin-top: .3rem !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.imageManagePartners {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-width: 160px;
+    min-height: 135px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flexManagePartners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flexManagePartnersChilds {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    width: 50%;
+}

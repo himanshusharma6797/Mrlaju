@@ -1,0 +1,27 @@
+.setUpButtonOnNavigation {
+    box-sizing: border-box;
+
+    position: absolute !important;
+    top: 2.65rem;
+    width: 64px !important;
+    height: 18px !important;
+    background: #35498E !important;
+    border: 1px solid #35498E !important;
+    border-radius: 15px !important;
+    z-index: 2;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 15px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+}
+
+@media (max-width: 600px) {
+    .setUpButtonOnNavigation {
+        top: 2.5rem !important;
+    }
+}

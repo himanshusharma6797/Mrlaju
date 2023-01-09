@@ -1,0 +1,156 @@
+.tableHeadingCell {
+    background-color: #35498E !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+
+    color: #FFFFFF;
+}
+
+.headingTableRow {
+    height: 32px !important;
+    background-color: #35498E;
+}
+
+.tableBodyCell {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 17px !important;
+
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+
+    color: #4B4B4B;
+
+}
+
+.bodyTableRow {
+    height: 29px;
+    cursor: pointer;
+}
+
+.tripleButtonAdminPanel {
+    width: 33.33%;
+    white-space: nowrap;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    text-transform: capitalize !important;
+
+    color: #202020;
+}
+
+.activeButtonAdminPanel {
+    box-sizing: border-box;
+    width: 33.33%;
+
+    background: #35498E !important;
+    border: 1px solid #35498E;
+    border-radius: 15px !important;
+    white-space: nowrap;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.doubleButtonAdminPanel{
+    width: 50%;
+    white-space: nowrap;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-transform: capitalize !important;
+
+    color: #202020;
+}
+
+.doubleActiveButtonAdminPanel{
+    box-sizing: border-box;
+    width: 50%;
+
+    background: #35498E !important;
+    border: 1px solid #35498E;
+    border-radius: 15px !important;
+    white-space: nowrap;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.buttonHalf {
+    /* width: 90% !important; */
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    /* identical to box height */
+    cursor: pointer;
+
+    color: #FFFFFF !important;
+}
+
+.whatsappButton {
+    background: #09D033;
+    border: 1px solid #09D033;
+}
+
+.callButton {
+    background: #35498E;
+    border: 1px solid #35498E;
+}
+
+.upperHeadingAdmin {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #202020;
+}
+.approveButton{
+    background: #35498E;
+    border: 1px solid #35498E;
+    border-radius: 15px;
+}
+.rejectButton{
+    background: #E94242;
+    border: 1px solid #E94242;
+    border-radius: 15px;
+}
+.selectCountryCodeMigrateAdmin{
+    background-color: white;
+    position: relative;
+    left: -235px;
+    top: 27px;
+    border: 0px;
+}
+
+.dataFromDb{
+    background: #EFEFEF;
+}

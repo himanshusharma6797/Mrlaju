@@ -1,0 +1,127 @@
+.twoButtonGroup {
+    height: 32px;
+
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-radius: 15px;
+    width: 66%;
+    display: flex !important;
+    align-items: center;
+}
+
+.twoButtonWithGropWithThird {
+    display: flex;
+    justify-content: space-between;
+}
+
+.runnerButton {
+    height: 32px;
+    width: 100%;
+    background: #35498E !important;
+    border: 1px solid #35498E !important;
+    border-radius: 15px !important;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+}
+
+.doubleButtonInActive {
+    height: 17px !important;
+    width: 50%;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* identical to box height */
+    color: #202020 !important;
+    text-transform: capitalize !important;
+}
+
+.doubleButtonActive {
+    height: 28px !important;
+    width: 50%;
+
+    background: #E94242 !important;
+    border: 1px solid #E94242 !important;
+    border-radius: 15px !important;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+}
+
+.doubleButtonActiveOnline{
+    height: 28px !important;
+    width: 50%;
+
+    background: #09D033 !important;
+    border: 1px solid #09D033 !important;
+    border-radius: 15px !important;
+
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* identical to box height */
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+}
+
+.singleButtonRunner{
+    width: 33%;
+}
+
+.customerBaseHeading{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: 21px;
+left: 15px;
+top: 130px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+color: #202020;
+}
+.groupSelectionHeading{
+    padding-bottom: 2rem;
+    height: 21px;
+left: 15px;
+top: 130px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+color: #202020;
+}
+
+.selectInputMerchantApp{
+    color: #767676;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.restourentNameHover:hover{
+    background-color: white;
+    border-radius: 15px;
+}

@@ -1,0 +1,41 @@
+.removeBtnOperatorRunner {
+    height: 32px;
+    width: 100%;
+    background: #E94242 !important;
+    border: 1px solid #E94242 !important;
+    border-radius: 15px !important;
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+    font-size: 12px;
+}
+
+.fontSize12px{
+    font-size: 12px !important;
+    /* white-space: nowrap; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.displayFlexColumnTwoOR{
+    display: flex;
+    flex-flow: column;
+    margin-left: .5rem;
+    width: 50%;
+}
+.displayFlexColumnOneOR{
+    display: flex;
+    margin-right: .5rem;
+    flex-flow: column;
+    width: 50%;
+}
+.runnerCardBox{
+    margin-bottom: 1rem;
+}
+.approveBtnGreen{
+    background: #09D033 !important;
+    border: 1px solid #09D033 !important;
+    border-radius: 15px;
+}
